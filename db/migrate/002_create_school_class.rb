@@ -2,7 +2,7 @@ class CreateSchoolClasses < ActiveRecord::Migration
   def change
     create_table :students do |t|
       t.string :title
-      t.integer :last_name
+      t.integer :room_number
 
       t.timestamps null: false
     end
